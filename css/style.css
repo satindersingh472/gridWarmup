@@ -1,0 +1,28 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width:70vw;
+    margin: 0 auto;
+}
+header section img{
+    height: 40px;
+    width: 100%;
+    object-fit: contain;
+}
+header section{
+    align-items: center;
+    justify-self: start;
+}
+header nav{
+    justify-self: end;
+    padding: 10px;
+}
+main,footer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: start;
+    justify-items: center;
+    width:70vw;
+    margin: 0 auto;
+}
